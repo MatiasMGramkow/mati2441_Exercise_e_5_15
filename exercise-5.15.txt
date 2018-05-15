@@ -1,0 +1,5 @@
+# exercise 5.15 How many different guests have made bookings for August?
+
+SELECT COUNT(*) FROM Booking WHERE dateFrom >= '2018-08-01' 
+
+AND dateTo <= '2018-08-31';
